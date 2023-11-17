@@ -16,8 +16,9 @@ export default function Home() {
           if (text == "") {
             return;
           }
-          toast.success(text);
+          toast.success(`OK ${text}`);
         }}
+        className="min-w-max"
       >
         <input
           type="text"
